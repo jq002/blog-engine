@@ -12,4 +12,4 @@ app.use(express.static('dist'));
 // 设置默认超时时间
 // app.use(timeout('15s'));
 app.use(AV.express());
-app.listen(process.env.LEANCLOUD_APP_PORT||3050);
+app.listen(process.env.LEANCLOUD_APP_PORT||8080);
