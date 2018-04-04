@@ -1,0 +1,21 @@
+{
+  "name": "blog-engine",
+  "version": "1.0.0",
+  "description": "deploy vue-blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set LEANCLOUD_APP_PORT=8080 && node server.js"
+  },
+  "keywords": [
+    "node",
+    "leancloud"
+  ],
+  "author": "jq",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "leancloud-storage": "^3.6.4",
+    "leanengine": "^3.1.1"
+  }
+}
